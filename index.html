@@ -42,7 +42,7 @@
 
     async function loadPokemon(url) {
       try {
-        $main.innerHTML = `<img  class= "loader" src="https://github.com/estebancardona7/PokeAPI/blob/main/assets/three-dots.svg?short_path=2fda0a7" alt="Cargando...">`
+        $main.innerHTML = `<img  class= "loader" src="https://raw.githubusercontent.com/estebancardona7/PokeAPI/main/assets/three-dots.svg" alt="Cargando...">`
 
         let res = await fetch(url),
           json = await res.json(),
